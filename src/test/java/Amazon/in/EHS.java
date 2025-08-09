@@ -144,7 +144,7 @@ public class EHS {
         }
     }
 
-    // ===== Extract Data =====
+   
     private static List<VehicleInfo> extractVehicleData(WebElement table) {
         List<WebElement> rows = table.findElements(By.xpath(".//tr[position()>1]"));
         List<VehicleInfo> vehicleList = new ArrayList<>();
